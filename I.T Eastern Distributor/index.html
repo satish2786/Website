@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="css/normalize.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/main.css" media="screen">
+<script src="https://use.fontawesome.com/a49737ce1d.js"></script>
+
+<title> IT Eastern Distribution </title>
+</head>
+<body>
+
+
+<header>
+
+
+<!--Social Media logo and icons
+<p>Join the Conversation </p>
+
+<div class="social">
+
+<ul>
+<li><a href="#"><i class="fa fa-youtube" ></i> </a> </li>
+<li><a href="#"><i class="icon-facebook-sign"></i> </a> </li>
+<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> </a> </li>
+<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> </a> </li>
+</ul>
+
+
+</div><!--end of "social" -->
+
+
+</header>
+
+<div id="Banner" >
+<img src="img/Top-Banner 960px.jpg" alt="Banner" />
+</div>
+
+<div id="Container" class="shadow">
+<div id="subcontainer">
+<div id="nav">
+<ul>
+<li><a href="Index.html">Home </a></li>
+<li><a href="AboutUs.html">About Us </a></li>
+<li><a href="#">Products & Services </a>
+    
+    <ul>
+    <li><a href="IT.html">Information Technology </a></li>
+    <li><a href="Electrical.html">Electrical </a></li>
+     <li><a href="safety.html">Saftey Equipment </a></li>
+    <li><a href="Training.html"> Training </a> </li>
+    </ul>
+     
+</li>
+
+<li><a href="Blogs.html"></i>Blog </a></li>
+<!--<i class="fa fa-pencil" aria-hidden="true">-->
+<li> <a href="ContactUs.html">Contact Us </a></li>
+</ul>
+</div>
+<!--
+<form>
+<span class="Search"><input type="text" placeholder="search"> <i class="icon-search"></i></span>
+</form>
+-->
+
+
+<!-- Image rotating continious -->
+
+<div class="Slider">
+
+<img class="mySlides" src="img/IT.jpg">
+<img class="mySlides" src="img/gled.jpg">
+<img class="mySlides" src="img/Train.jpg">
+<img class="mySlides" src="img/Cup.jpg">
+<img class="mySlides" src="img/Server.jpg">
+<img class="mySlides" src="img/Networking.jpg">
+<img class="mySlides" src="img/PC.jpg">
+<img class="mySlides" src="img/CCTV.jpg">
+
+
+</div><!--slider-->
+</div>
+
+<!--Text or paragraph in on it -->
+<div class="row">
+<h2> Who we are : </h2>
+<p>IT Eastern Distribution Private Limited, Chennai established in the Year 2001 and is professionally focus on delivering quality resources to its client in the supply of Computer system & Printer (hardware & software), Electrical & Electronic, Industrial Safety Equipment & Protective Products. </p>
+
+<p> IT Eastern Corporate Division has been formed to supply to different corporate segments and verticals including Corporate, Industrial, IT, Educational institutions, Hospitals, Banking, & Government Sectors.  </p>
+
+<h3>We offering the below mentioned Supply & Services:</h3>
+<h4> IT products </h4>
+<p> Computers, Laptops, CCTV camera, Bio matric, inter-com telephone system, stationery, printer & toner refilling, website, software development, antivirus installation, tally ERP 9 server, office networking maintenance, System AMC. (Windows, Linux, Unix & Mac).</p>
+<h4> Electrical Products </h4>
+<p>Lights, Fans, Circuit breaker, Switchgears and other electrical products with installation services. </p>
+<h4> Safety Equipment & Protective Products</h4>
+<p>Safety shoes, helmets, reflective jackets and other safety equipment & protective products. </p>
+<h4>Civil & Mechanical software tools</h4>
+<p>Training with professional staffs for Autocad, Revit, Catia, Photoshop, 3DS MAX. </p>
+</div>
+
+<!--designed & social media icon-->
+<footer >
+<!--Social Media logo and icons-->
+
+
+<div class="social">
+<p>Join the Conversation </p>
+<ul>
+<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+<li><a href="#"><i class="fa fa-youtube" ></i> </a> </li>
+<li><a href="#"><i class="fa fa-twitter"></i> </a> </li>
+</ul>
+
+
+</div><!--end of "social" --> </footer>
+</div>
+</div><!--end of the contailer-->
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
